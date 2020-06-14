@@ -1,0 +1,13 @@
+Usar typescript no node:
+ts-node
+typescript
+ts-node-dev (substitui o nodemon)
+
+criar tsconfig.json automaticamente:
+npx tsc --init
+
+rodar knex migrations:
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+
+remove any git mentions on project:
+rm -rf .git
